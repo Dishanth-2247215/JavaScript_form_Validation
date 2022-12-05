@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 75px;
+    font-size: 20px;
+}
+.contain{
+    width: 800px;
+    height: 900px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid;
+}
+input[type=text]{
+    border-radius:6px;
+    width:50%;
+    height:35px;
+    border:none;
+    font-size: 15px;
+    background-color: #cfdbd5;
+}
+input[type=text]:hover{
+    background-color: #e8eddf;
+    border:2px solid;
+}
+
+input[type=email]{
+    border-radius:6px;
+    width:50%;
+    height:35px;
+    border:none;
+    font-size: 15px;
+    background-color:#cfdbd5;
+}
+input[type=email]:hover{
+    background-color: #e8eddf;
+    border:2px solid;
+}
+
+input[type=password]{
+    border-radius:6px;
+    width:50%;
+    height:35px;
+    border:none;
+    font-size: 15px;
+    background-color: #cfdbd5;
+}
+input[type=password]:hover{
+    background-color: #e8eddf;
+    border:2px solid;
+}
+
+input[type=tel]{
+    border-radius:6px;
+    width:50%;
+    height:35px;
+    border:none;
+    font-size: 15px;
+    background-color: #cfdbd5;
+}
+input[type=tel]:hover{
+    background-color: #e8eddf;
+    border:2px solid;
+}
+input[type=date]{
+    border-radius:6px;
+    width:25%;
+    height:35px;
+    border:none;
+    font-size: 15px;
+    background-color: #cfdbd5;
+}
+input[type=date]:hover{
+    background-color: #e8eddf;
+    border:2px solid;
+}
