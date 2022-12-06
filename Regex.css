@@ -1,75 +1,85 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     padding: 75px;
     font-size: 22px;
 }
 h1{
-    border-bottom: 3px solid; 
+    font-family:'Franklin Gothic Medium';
+    border-bottom: 4px solid; 
+    border-radius: 8px;
     padding: 25px; 
     border-color:darkgray;
+}
+label{
+    padding: 10px;
 }
 .contain{
     width: 800px;
     height: 1000px;
-    padding: 20px;
+    padding: 40px;
+    padding-bottom:15px ;
     border-radius: 15px;
     border: 1px solid;
     border-color: grey;
     box-shadow: 1px 1px 8px black;
 }
 input[type=text]{
-    border-radius:6px;
-    width:50%;
+    border-radius:8px;
+    width:450px;
     height:35px;
     border:none;
     font-size: 15px;
     background-color: #cfdbd5;
 }
 input[type=text]:hover{
-    background-color: #e8eddf;
-    border:2px solid;
+    background-color: whitesmoke;
+    border:none;
+    box-shadow: 1px 1px 6px;
 }
 
 input[type=email]{
-    border-radius:6px;
-    width:50%;
+    border-radius:8px;
+    width:450px;
     height:35px;
     border:none;
     font-size: 15px;
     background-color:#cfdbd5;
 }
 input[type=email]:hover{
-    background-color: #e8eddf;
-    border:2px solid;
+    background-color:whitesmoke;
+    border:none;
+    box-shadow: 1px 1px 6px;
 }
 
 input[type=password]{
-    border-radius:6px;
-    width:50%;
+    border-radius:8px;
+    width: 450px;;
     height:35px;
     border:none;
     font-size: 15px;
     background-color: #cfdbd5;
 }
 input[type=password]:hover{
-    background-color: #e8eddf;
-    border:2px solid;
+    background-color: whitesmoke;
+    border:none;
+    box-shadow: 1px 1px 6px;
 }
 
 input[type=tel]{
-    border-radius:6px;
-    width:50%;
+    border-radius:8px;
+    width:450px;
     height:35px;
     border:none;
     font-size: 15px;
     background-color: #cfdbd5;
 }
 input[type=tel]:hover{
-    background-color: #e8eddf;
-    border:2px solid;
+    background-color: whitesmoke;
+    border:none;
+    box-shadow: 1px 1px 6px;
 }
 input[type=date]{
-    border-radius:6px;
+    border-radius:8px;
     width:25%;
     height:35px;
     border:none;
@@ -77,33 +87,43 @@ input[type=date]{
     background-color: #cfdbd5;
 }
 input[type=date]:hover{
-    background-color: #e8eddf;
-    border:2px solid;
+    background-color: whitesmoke;
+    border:none;
+    box-shadow: 1px 1px 6px;
 }
 input[type=submit]{
-    border-radius: 7px;
+    border-radius: 9px;
     width:40%;
     height: 40px;
     font-size: 20px;
     color:darkgreen;
     background-color: white;
     border-color: rgb(8, 169, 8);
+    box-shadow: 1px 1px 8px;
     
 }
 input[type=submit]:hover{
     background-color: rgb(15, 112, 15);
     color:white;
+    border:none;
+    
 }
 input[type=reset]{
-    border-radius: 7px;
+    border-radius: 9px;
     width:15%;
     height: 35px;
     font-size: 15px;
-    background-color: blue;
-    color:white;
-    border-color: darkgreen;
+    background-color: white;
+    color:blue;
+    box-shadow: 1px 1px 5px;
+    border-color: blue;
 }
 input[type=reset]:hover{
-    color:darkgreen;
-    background-color: white;
+    background-color: blue;
+    color:white;
+    border:none;
+    
+}
+input[type=checkbox]{
+    border-radius: 15px;
 }
