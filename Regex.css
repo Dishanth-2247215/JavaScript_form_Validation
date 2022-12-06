@@ -15,21 +15,28 @@ label{
     padding: 10px;
 }
 .contain{
-    width: 800px;
-    height: 1450px;
-    padding: 40px;
+    width: 80%;
+    height: 100%;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-bottom:15px ;
     border-radius: 15px;
     border: 1px solid;
+    justify-content: center;
     background-color: white;
     border-color: grey;
     box-shadow: 1px 1px 8px black;
 }
-input[type=text]{
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=password]
+{
     border-radius:8px;
     margin-top: 10px;
-    width:450px;
-    height:35px;
+    width:50%;
+    height:37px;
     border:none;
     font-size: 15px;
     background-color: #cfdbd5;
@@ -39,58 +46,29 @@ input[type=text]:hover{
     border:none;
     box-shadow: 1px 1px 6px;
 }
-input[type=radio]{
-    margin-left: 35px;
-}
-input[type=email]{
-    border-radius:8px;
-    margin-top: 10px;
-    width:450px;
-    height:35px;
-    border:none;
-    font-size: 15px;
-    background-color:#cfdbd5;
-}
 input[type=email]:hover{
     background-color:whitesmoke;
     border:none;
     box-shadow: 1px 1px 6px;
-}
-
-input[type=password]{
-    border-radius:8px;
-    margin-top: 10px;
-    width: 450px;;
-    height:35px;
-    border:none;
-    font-size: 15px;
-    background-color: #cfdbd5;
 }
 input[type=password]:hover{
     background-color: whitesmoke;
     border:none;
     box-shadow: 1px 1px 6px;
 }
-
-input[type=tel]{
-    border-radius:8px;
-    margin-top: 10px;
-    width:450px;
-    height:35px;
-    border:none;
-    font-size: 15px;
-    background-color: #cfdbd5;
-}
 input[type=tel]:hover{
     background-color: whitesmoke;
     border:none;
     box-shadow: 1px 1px 6px;
 }
+input[type=radio]{
+    margin-left: 35px;
+}
 input[type=date]{
     border-radius:8px;
     margin-top: 10px;
     width:25%;
-    height:35px;
+    height:37px;
     border:none;
     font-size: 15px;
     background-color: #cfdbd5;
@@ -101,9 +79,10 @@ input[type=date]:hover{
     box-shadow: 1px 1px 6px;
 }
 input[type=submit]{
+    margin-left: 9%;
     border-radius: 9px;
-    width:40%;
-    height: 40px;
+    width:85%;
+    height: 45px;
     font-size: 20px;
     color:darkgreen;
     background-color: white;
@@ -113,22 +92,6 @@ input[type=submit]{
 }
 input[type=submit]:hover{
     background-color: rgb(15, 112, 15);
-    color:white;
-    border:none;
-    
-}
-input[type=reset]{
-    border-radius: 9px;
-    width:15%;
-    height: 35px;
-    font-size: 15px;
-    background-color: white;
-    color:blue;
-    box-shadow: 1px 1px 5px;
-    border-color: blue;
-}
-input[type=reset]:hover{
-    background-color: blue;
     color:white;
     border:none;
     
