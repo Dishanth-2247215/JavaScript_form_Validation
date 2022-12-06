@@ -1,14 +1,21 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     padding: 75px;
-    font-size: 20px;
+    font-size: 22px;
+}
+h1{
+    border-bottom: 3px solid; 
+    padding: 25px; 
+    border-color:darkgray;
 }
 .contain{
     width: 800px;
-    height: 900px;
+    height: 1000px;
     padding: 20px;
-    border-radius: 10px;
-    border: 3px solid;
+    border-radius: 15px;
+    border: 1px solid;
+    border-color: grey;
+    box-shadow: 1px 1px 8px black;
 }
 input[type=text]{
     border-radius:6px;
@@ -72,4 +79,31 @@ input[type=date]{
 input[type=date]:hover{
     background-color: #e8eddf;
     border:2px solid;
+}
+input[type=submit]{
+    border-radius: 7px;
+    width:40%;
+    height: 40px;
+    font-size: 20px;
+    color:darkgreen;
+    background-color: white;
+    border-color: rgb(8, 169, 8);
+    
+}
+input[type=submit]:hover{
+    background-color: rgb(15, 112, 15);
+    color:white;
+}
+input[type=reset]{
+    border-radius: 7px;
+    width:15%;
+    height: 35px;
+    font-size: 15px;
+    background-color: blue;
+    color:white;
+    border-color: darkgreen;
+}
+input[type=reset]:hover{
+    color:darkgreen;
+    background-color: white;
 }
