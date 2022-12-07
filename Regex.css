@@ -1,102 +1,104 @@
-body{
-    font-family:"Roboto",Helvetica,Arial,sans-serif;;
-    padding: 75px;
+body {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    ;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     font-size: 22px;
     background-color: rgb(233, 202, 149);
 }
-h1{
-    font-family:'Franklin Gothic Medium';
-    border-bottom: 3px solid; 
-    border-radius: 8px;
-    padding: 20px; 
-    border-color:darkgray;
+
+h1 {
+    font-family: 'Franklin Gothic Medium';
+    padding: 20px;
+    border-color: darkgray;
+    text-align: center;
 }
-label{
+
+label {
     padding: 10px;
 }
-.contain{
-    width: 60%;
-    height: 100%;
+
+.contain {
+    width: 45%;
+    height: 70%;
     padding: 50px;
     padding-left: 100px;
     padding-right: 100px;
-    padding-bottom:15px ;
+    padding-bottom: 15px;
     border-radius: 15px;
     border: 1px solid;
-    justify-content: center;
     background-color: white;
     border-color: grey;
     box-shadow: 1px 1px 8px black;
 }
+
 input[type=text],
 input[type=email],
 input[type=tel],
-input[type=password]
-{
-    border-radius:8px;
+input[type=password] {
+    border-radius: 8px;
     margin-top: 10px;
-    width:85%;
-    height:37px;
-    border:none;
+    width: 85%;
+    height: 37px;
+    border: none;
     font-size: 15px;
     background-color: #cfdbd5;
 }
-input[type=text]:hover{
+
+input[type=text]:hover {
     background-color: whitesmoke;
-    border:none;
+    border: none;
     box-shadow: 1px 1px 6px;
 }
-input[type=email]:hover{
-    background-color:whitesmoke;
-    border:none;
-    box-shadow: 1px 1px 6px;
-}
-input[type=password]:hover{
+
+input[type=email]:hover {
     background-color: whitesmoke;
-    border:none;
+    border: none;
     box-shadow: 1px 1px 6px;
 }
-input[type=tel]:hover{
+
+input[type=password]:hover {
     background-color: whitesmoke;
-    border:none;
+    border: none;
     box-shadow: 1px 1px 6px;
 }
-input[type=radio]{
-    margin-left: 35px;
-}
-input[type=date]{
-    border-radius:8px;
-    margin-top: 10px;
-    width:25%;
-    height:37px;
-    border:none;
-    font-size: 15px;
-    background-color: #cfdbd5;
-}
-input[type=date]:hover{
+
+input[type=tel]:hover {
     background-color: whitesmoke;
-    border:none;
+    border: none;
     box-shadow: 1px 1px 6px;
 }
-button{
+
+.dot{
+    margin-left:1vw;
+}
+button {
     margin-left: 9%;
     border-radius: 9px;
-    width:85%;
+    width: 85%;
     height: 40px;
     font-size: 20px;
-    color:darkgreen;
+    color: darkgreen;
     background-color: white;
     border-color: rgb(8, 169, 8);
     box-shadow: 1px 1px 8px;
-    
+
 }
-button:hover{
+button:hover {
     background-color: rgb(15, 112, 15);
-    color:white;
-    border:none;
-    
+    color: white;
+    border: none;
+
 }
-input[type=checkbox]{
+
+input[type=checkbox] {
     border-radius: 15px;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}

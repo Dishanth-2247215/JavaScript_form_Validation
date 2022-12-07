@@ -7,11 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register page</title>
     <link rel="stylesheet" href="Regex.css">
-    <style> </style>
+    <style>
+        .click {
+            font-size: 2px;
+        }
+
+        @media(min-width:531px) {
+            label,body,.dot {
+                font-size: larger
+            }
+        }
+    </style>
 </head>
 
 <body>
-    
+
     <script>
         function test() {
             var format = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
@@ -19,7 +29,7 @@
             const number = document.getElementById("number");
             const mail = document.getElementById("mail");
             const psw = document.getElementById("psw");
-            
+
             if (!name.value.match(/^[A-Za-z]+$/)) {
                 alert("Name should be only in characters");
                 name.focus();
@@ -50,33 +60,32 @@
             }
         }
     </script>
-    <div class="contain">
-        
-        <form>
-            <h1>Sign Up!</h1><br><br>
-            <label for="name">Name</label><br>
-            <input type="text" id="name" name="name" required><br><br><br>
-            <label>Gender</label><br><br>
-            <input type="radio" name="Gender" value="Male" required>Male
-            <input type="radio" name="Gender" value="Female" required>Female
-            <input type="radio" name="Gender" value="Others" required>Others<br><br><br>
-            <label>Date of birth</label><br>
-            <input type="date" required><br><br><br>
-            <label for="number">Phone Number</label><br>
-            <input type="tel" id="number" required><br><br><br>
-            <label for="mail">Email</label><br>
-            <input type="email" id="mail"><br><br><br>
-            <label>User name</label><br>
-            <input type="text" id="uname"><br><br><br>
-            <label for="psw">Password</label><br>
-            <input type="password" id="psw"><br>
-            <input type="checkbox" onclick="myFunction()">Show Password<br><br>
-            <p><a href="">*Terms and conditions</a></p>
-            <label><b>Declaration :-</b></label><br>
-            <input type="checkbox" required>I have agreed to all terms and conditions.<br><br><br>
-            
-            <button type="button" onclick="test()">Submit</button><br><br>
-        </form>
+    <div class="container">
+        <div class="contain">
+
+            <form>
+                <h1>Register!</h1><br><br>
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name" required><br><br><br>
+                <label>Gender</label><br><br>
+                <input type="radio" name="Gender" value="Male" class="dot" required>Male
+                <input type="radio" name="Gender" value="Female" class="dot" required>Female
+                <input type="radio" name="Gender" value="Others" class="dot" required>Others<br><br><br>
+                <label for="number">Phone Number</label><br>
+                <input type="tel" id="number" required><br><br><br>
+                <label for="mail">Email</label><br>
+                <input type="email" id="mail"><br><br><br>
+                <label for="psw">Password</label><br>
+                <input type="password" id="psw"><br>
+                <input type="checkbox" onclick="myFunction()">Show Password<br><br>
+                <p><a href="">*Terms and conditions</a></p>
+                <label><b>Declaration :-</b></label><br>
+                <input type="checkbox" required>I have agreed to all terms and conditions.<br><br><br>
+
+                <button type="button" onclick="test()">Submit</button><br><br>
+            </form>
+        </div>
     </div>
 </body>
+
 </html>
