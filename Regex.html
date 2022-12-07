@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    
     <script>
         function test() {
             var format = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
@@ -34,9 +35,9 @@
                 mail.focus();
                 return false;
             }
-            if (!password.value.match(/^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$/)) {
+            if (!psw.value.match(/^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$/)) {
                 alert("Passwords must contain:\na minimum of 1 lower case letter [a-z] and\na minimum of 1 upper case letter [A-Z] and\na minimum of 1 numeric character [0-9] and\n1 special character: ~`!@#$%^&*()-_+={}[]|\;:<>,./?\nat least 1 upper case, numeric, and special character must be EMBEDDED somewhere in the middle of the password, and not just be the first or the last character of the password string.");
-                password.focus();
+                psw.focus();
                 return false;
             }
         }
@@ -50,8 +51,9 @@
         }
     </script>
     <div class="contain">
+        
         <form>
-            <h1>Registration Form</h1><br><br>
+            <h1>Sign Up!</h1><br><br>
             <label for="name">Name</label><br>
             <input type="text" id="name" name="name" required><br><br><br>
             <label>Gender</label><br><br>
