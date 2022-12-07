@@ -78,11 +78,11 @@ input[type=date]:hover{
     border:none;
     box-shadow: 1px 1px 6px;
 }
-input[type=submit]{
+button{
     margin-left: 9%;
     border-radius: 9px;
     width:85%;
-    height: 45px;
+    height: 40px;
     font-size: 20px;
     color:darkgreen;
     background-color: white;
@@ -90,7 +90,7 @@ input[type=submit]{
     box-shadow: 1px 1px 8px;
     
 }
-input[type=submit]:hover{
+button:hover{
     background-color: rgb(15, 112, 15);
     color:white;
     border:none;
