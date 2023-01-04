@@ -1,122 +1,99 @@
-body {
-    font-family: "Roboto", Helvetica, Arial, sans-serif;
-    ;
-    box-sizing: border-box;
+
+*{
     margin: 0;
     padding: 0;
-    font-size: 35px;
-    background-color: rgb(233, 202, 149);
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
-h1 {
-    font-family: 'Franklin Gothic Medium';
-    padding: 20px;
-    border-color: darkgray;
-    text-align: center;
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: ivory;
+    box-sizing: border-box;
+}
+input[type="search"] {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #e9edc9;
+    border:none;
+    width: 400px;
+    height: 5vh;
+    padding-left: 8px;
+    border-radius: 2px;
+    font-size: 16px;
 }
 
-label {
-    padding: 10px;
+input[type="text"] {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #e8e8e4;
+    border: none;
+    width: 110%;
+    height: 5vh;
+    padding-left: 8px;
+    border-radius: 4px; 
+    font-size: 15px;
 }
 
-.contain {
-    width: 40%;
-    height: 70%;
-    padding: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 15px;
-    border-radius: 15px;
-    
-    border: 1px solid;
+input[type="text"]:hover {
     background-color: white;
-    border-color: grey;
-    box-shadow: 1px 1px 8px black;
-}
-
-input[type=text],
-input[type=email],
-input[type=tel],
-input[type=password] {
-    border-radius: 8px;
-    margin-top: 10px;
-    width: 95%;
-    height: 37px;
-    border: none;
-    font-size: 18px;
-    background-color: #cfdbd5;
-}
-
-input[type=text]:hover {
-    background-color: whitesmoke;
-    border: none;
-    box-shadow: 1px 1px 6px;
-}
-
-input[type=email]:hover {
-    background-color: whitesmoke;
-    border: none;
-    box-shadow: 1px 1px 6px;
-}
-
-input[type=password]:hover {
-    background-color: whitesmoke;
-    border: none;
-    box-shadow: 1px 1px 6px;
-}
-
-input[type=tel]:hover {
-    background-color: whitesmoke;
-    border: none;
-    box-shadow: 1px 1px 6px;
-}
-
-.dot{
-    margin-left:1vw;
-}
-button {
-    margin-left: 9%;
-    border-radius: 9px;
-    width: 85%;
-    height: 40px;
-    font-size: 20px;
-    color: darkgreen;
-    background-color: white;
-    border-color: rgb(8, 169, 8);
-    box-shadow: 1px 1px 8px;
-
-}
-button:hover {
-    background-color: rgb(15, 112, 15);
-    color: white;
-    border: none;
-
-}
-
-input[type=checkbox] {
-    border-radius: 15px;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
-}
-input[type=radio]:hover{
     box-shadow: 1px 1px 4px;
 }
-a{
-    text-decoration: none ;
+
+input[type="tel"] {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #e8e8e4;
+    border: none;
+    width: 110%;
+    height: 5vh;
+    padding-left: 8px;
+    border-radius: 4px; 
+    font-size: 15px;  
 }
-a:hover{
-    border: 2px solid;
-    width:200%;
-    height: 15%;
+input[type="tel"]:hover {
+    background-color: white;  
+    box-shadow: 1px 1px 4px;
+}
+input[type="password"] {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #e8e8e4;
+    border: none;
+    width: 110%;
+    height: 5vh;
+    padding-left: 8px;
     border-radius: 4px;
-    background-color:rgb(50, 50, 228);
-    color:white;
+    font-size: 15px;
+   
+}
+input[type="password"]:hover {
+    background-color: white;
     box-shadow: 1px 1px 4px;
 }
-
-
+input[type="email"] {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #e8e8e4;
+    border: none;
+    width: 110%;
+    height: 5vh;
+    padding-left: 8px;
+    border-radius: 4px;
+    font-size: 15px;
+   
+}
+input[type="email"]:hover {
+    background-color: white;
+    box-shadow: 1px 1px 4px;
+}
+.buton{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    color:green;
+    border-color: green;
+    border-radius: 8px; 
+    font-size: 25px;
+    width:110%;
+    height: 6vh;
+}
+.buton:hover{
+    background-color: #8ac926;
+    border-color: #8ac926;
+    color:white;
+}
